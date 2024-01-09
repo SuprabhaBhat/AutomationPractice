@@ -52,3 +52,7 @@ class Test_01_Login:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_homePageTitle.png")
             self.driver.close()
             assert False
+
+            #wait = WebDriverWait(driver, 5)
+            #wait.until(EC.visibility_of_element_located((By.XPATH, "//input[@placeholder='First Name']"))).send_keys("Suprabha")
+
