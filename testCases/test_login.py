@@ -5,7 +5,8 @@ from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
 class Test_01_Login:
-    #moving below data to separate common pool inorder to easy access
+    #login credentails
+    #self-acccessing inst var
     #ini files(config.ini) have data and inorder to read it and provide it to Testcases Utility files(readProperty.py) are used.
     baseURL = ReadConfig.getApplicationURL()
     username = ReadConfig.getUsername()

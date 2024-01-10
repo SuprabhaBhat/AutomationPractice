@@ -8,8 +8,7 @@ from utilities.customLogger import LogGen
 from utilities import XLUtils
 
 class Test_02_DataDrivenTest_Login:
-    #moving below data to separate common pool inorder to easy access
-    #ini files(config.ini) have data and inorder to read it and provide it to Testcases Utility files(readProperty.py) are used.
+
     baseURL = ReadConfig.getApplicationURL()
     path = ".//TestData/LoginData.xlsx"
 

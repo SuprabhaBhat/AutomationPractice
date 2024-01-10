@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 
 class AddCustomer:
-    # Add customer Page
+
     lnkCustomers_menu_xpath = "//a[@href='#']//p[contains(text(),'Customers')]"
     lnkCustomers_menuitem_xpath = "//a[@href='/Admin/Customer/List']//p[contains(text(),'Customers')]"
     btnAddnew_xpath = "//a[@class='btn btn-primary']"
@@ -25,7 +25,6 @@ class AddCustomer:
     drpmgrOfVendor_xpath = "//*[@id='VendorId']"
     txtAdminContent_xpath = "//textarea[@id='AdminComment']"
     btnSave_xpath = "//button[@name='save']"
-
 
     def __init__(self, driver):
         self.driver = driver
@@ -53,7 +52,7 @@ class AddCustomer:
         elif role == 'Administrators':
             self.listitem = self.driver.find_element(By.XPATH,self.lstitemAdministrators_xpath)
         elif role == 'Guests':
-            # Here user can be Registered( or) Guest, only one
+            # either Registered/Guest
             time.sleep(3)
             self.driver.find_element(By.XPATH,"//*[@id='SelectedCustomerRoleIds_taglist']/li/span[2]").click()
             self.listitem = self.driver.find_element(By.XPATH,self.lstitemGuests_xpath)
@@ -67,10 +66,12 @@ class AddCustomer:
 
         self.driver.execute_script("arguments[0].click();", self.listitem)
 
+    #dropdown
     def setManagerOfVendor(self,value):
         drp = Select(self.driver.find_element(By.XPATH,self.drpmgrOfVendor_xpath))
         drp.select_by_visible_text(value)
 
+    #radiodial
     def setGender(self,gender):
         if gender == 'Male':
             self.driver.find_element(By.ID,self.rdMaleGender_id).click()

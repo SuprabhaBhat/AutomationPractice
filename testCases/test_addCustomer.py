@@ -34,10 +34,11 @@ class Test_03_AddCustomer:
         self.addcust = AddCustomer(self.driver)
         self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenu()
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(5)
         self.addcust.clickOnCustomersMenuItem()
         self.driver.implicitly_wait(10)
         self.addcust.clickOnAddnew()
+        time.sleep(5)
 
 
         self.logger.info("************* Providing customer details **********")
@@ -50,7 +51,7 @@ class Test_03_AddCustomer:
         self.addcust.setGender("Female")
         self.addcust.setFirstName("Suprabha")
         self.addcust.setLastName("Bhat")
-        self.addcust.setDob("5/09/1999")  # Format: D / MM / YYY
+        self.addcust.setDob("5/09/1999")  #D/MM/yYYY
         self.addcust.setCompanyName("LttsQA")
         self.addcust.setAdminContent("Just for testing.........")
         self.addcust.clickOnSave()
@@ -65,7 +66,7 @@ class Test_03_AddCustomer:
             assert True
             self.logger.info("********* Customer added, Test Passed *********")
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_addCustomer_test.png")  # Screenshot
+            self.driver.save_screenshot(".\\Screenshots\\" + "test_addCustomer_test.png")
             self.logger.error("********* Adding customer failed, Test Failed ************")
             assert False
 
