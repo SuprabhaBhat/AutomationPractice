@@ -21,7 +21,6 @@ class Test_02_DataDrivenTest_Login:
         self.driver = setup
         self.driver.get(self.baseURL)
 
-        #create obj of LoginPage class to access elements from PO Class
         self.lp = LoginPage(self.driver)
         self.rows = XLUtils.getRowCount(self.path, 'Sheet1')
         print('Number of rows...',self.rows)
