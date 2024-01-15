@@ -30,9 +30,9 @@ class Test_05_SearchCustomerByName:
         self.addcust = AddCustomer(self.driver)
         self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenu()
-        time.sleep(10)
+        self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenuItem()
-        time.sleep(10)
+        self.driver.implicitly_wait(10)
 
         self.logger.info("************* searching customer by Name **********")
         searchcust = SearchCustomer(self.driver)

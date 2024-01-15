@@ -38,7 +38,7 @@ class Test_01_Login:
         self.logger.info("****Started Login Test****")
         self.driver = setup
         self.driver.get(self.baseURL)
-        #create obj of LoginPage class to access elements from PO Class
+
         self.lp = LoginPage(self.driver)
         self.lp.setUserName(self.username)
         self.lp.setPassword(self.password)

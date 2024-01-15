@@ -8,7 +8,7 @@ class LoginPage:
     button_login_xpath = "//button[@type='submit']"
     link_logout_link_text = "Logout"
 
-#default constructor to call driver
+
     def __init__(self,driver):
         self.driver=driver
 

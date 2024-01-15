@@ -746,3 +746,113 @@
 2024-01-15 11:11:17,570 :INFO : Test_05_SearchCustomerByName :************* test_05_SearchCustomerByName **********
 2024-01-15 11:11:22,338 :INFO : Test_05_SearchCustomerByName :************* Login successful **********
 2024-01-15 11:11:22,338 :INFO : Test_05_SearchCustomerByName :******* Starting Search Customer By Name **********
+2024-01-15 11:24:09,886 :INFO : Test_03_AddCustomer :************* Test_03_AddCustomer **********
+2024-01-15 11:24:15,877 :INFO : Test_03_AddCustomer :************* Login successful **********
+2024-01-15 11:24:15,877 :INFO : Test_03_AddCustomer :******* Starting new Testcase to add **********
+2024-01-15 11:24:26,043 :INFO : Test_03_AddCustomer :************* Providing customer details **********
+2024-01-15 11:24:38,108 :INFO : Test_03_AddCustomer :************* Saving customer info **********
+2024-01-15 11:24:38,109 :INFO : Test_03_AddCustomer :********* Add customer validation started *****************
+2024-01-15 11:24:39,311 :INFO : Test_03_AddCustomer :********* Customer added, Test Passed *********
+2024-01-15 11:24:39,400 :INFO : Test_03_AddCustomer :******* Ending,Thank you Universe **********
+2024-01-15 11:24:41,160 :INFO : Test_01_Login :*************** Test_001_Login *****************
+2024-01-15 11:24:41,162 :INFO : Test_01_Login :****Started Home page title test ****
+2024-01-15 11:24:41,162 :INFO : Test_01_Login :****Opening URL****
+2024-01-15 11:24:43,477 :INFO : Test_01_Login :**** Home page title test passed ****
+2024-01-15 11:24:45,358 :INFO : Test_01_Login :****Started Login Test****
+2024-01-15 11:24:49,604 :INFO : Test_01_Login :****Login test passed ****
+2024-01-15 11:24:51,486 :INFO : Test_02_DataDrivenTest_Login :*********Test_02_DataDrivenTest_Login*********
+2024-01-15 11:24:51,486 :INFO : Test_02_DataDrivenTest_Login :****Started DDT Login Test****
+2024-01-15 11:25:00,512 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 11:25:08,161 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 11:25:14,170 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 11:25:20,147 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 11:25:20,148 :INFO : Test_02_DataDrivenTest_Login :******* DDT Login test passed **********
+2024-01-15 11:25:20,267 :INFO : Test_02_DataDrivenTest_Login :******* Login test completed **********
+2024-01-15 11:25:22,006 :INFO : Test_04_SearchCustomerByEmail :************* Test 04 SearchCustomerByEmail **********
+2024-01-15 11:25:25,948 :INFO : Test_04_SearchCustomerByEmail :************* Login successful **********
+2024-01-15 11:25:25,948 :INFO : Test_04_SearchCustomerByEmail :******* Starting Search Customer By Email **********
+2024-01-15 11:25:28,394 :INFO : Test_04_SearchCustomerByEmail :************* searching customer by emailID **********
+2024-01-15 11:25:34,545 :INFO : Test_04_SearchCustomerByEmail :***************  TC_04_SearchCustomerByEmail Finished!!!!Hurray *********** 
+2024-01-15 11:25:36,214 :INFO : Test_05_SearchCustomerByName :************* test_05_SearchCustomerByName **********
+2024-01-15 11:25:41,521 :INFO : Test_05_SearchCustomerByName :************* Login successful **********
+2024-01-15 11:25:41,521 :INFO : Test_05_SearchCustomerByName :******* Starting Search Customer By Name **********
+2024-01-15 11:26:04,299 :INFO : Test_05_SearchCustomerByName :************* searching customer by Name **********
+2024-01-15 11:26:10,073 :INFO : Test_05_SearchCustomerByName :***************  TC_05_SearchCustomerByName Finished!!!!!Hurray *********** 
+2024-01-15 16:59:17,080 :INFO : Test_03_AddCustomer :************* Test_03_AddCustomer **********
+2024-01-15 16:59:22,211 :INFO : Test_03_AddCustomer :************* Login successful **********
+2024-01-15 16:59:22,211 :INFO : Test_03_AddCustomer :******* Starting new Testcase to add **********
+2024-01-15 17:00:29,426 :INFO : Test_03_AddCustomer :************* Test_03_AddCustomer **********
+2024-01-15 17:00:34,938 :INFO : Test_03_AddCustomer :************* Login successful **********
+2024-01-15 17:00:34,939 :INFO : Test_03_AddCustomer :******* Starting new Testcase to add **********
+2024-01-15 17:00:48,875 :INFO : Test_03_AddCustomer :************* Providing customer details **********
+2024-01-15 17:00:59,523 :INFO : Test_03_AddCustomer :************* Saving customer info **********
+2024-01-15 17:00:59,523 :INFO : Test_03_AddCustomer :********* Add customer validation started *****************
+2024-01-15 17:01:00,218 :ERROR : Test_03_AddCustomer :********* Adding customer failed, Test Failed ************
+2024-01-15 17:02:13,789 :INFO : Test_03_AddCustomer :************* Test_03_AddCustomer **********
+2024-01-15 17:02:16,648 :INFO : Test_03_AddCustomer :************* Login successful **********
+2024-01-15 17:02:16,648 :INFO : Test_03_AddCustomer :******* Starting new Testcase to add **********
+2024-01-15 17:02:31,007 :INFO : Test_03_AddCustomer :************* Providing customer details **********
+2024-01-15 17:02:41,883 :INFO : Test_03_AddCustomer :************* Saving customer info **********
+2024-01-15 17:02:41,883 :INFO : Test_03_AddCustomer :********* Add customer validation started *****************
+2024-01-15 17:02:42,816 :ERROR : Test_03_AddCustomer :********* Adding customer failed, Test Failed ************
+2024-01-15 17:02:51,806 :INFO : Test_03_AddCustomer :************* Test_03_AddCustomer **********
+2024-01-15 17:02:56,808 :INFO : Test_03_AddCustomer :************* Login successful **********
+2024-01-15 17:02:56,808 :INFO : Test_03_AddCustomer :******* Starting new Testcase to add **********
+2024-01-15 17:03:05,585 :INFO : Test_03_AddCustomer :************* Providing customer details **********
+2024-01-15 17:03:16,361 :INFO : Test_03_AddCustomer :************* Saving customer info **********
+2024-01-15 17:03:16,362 :INFO : Test_03_AddCustomer :********* Add customer validation started *****************
+2024-01-15 17:03:17,511 :ERROR : Test_03_AddCustomer :********* Adding customer failed, Test Failed ************
+2024-01-15 17:03:18,947 :INFO : Test_01_Login :*************** Test_001_Login *****************
+2024-01-15 17:03:18,948 :INFO : Test_01_Login :****Started Home page title test ****
+2024-01-15 17:03:18,948 :INFO : Test_01_Login :****Opening URL****
+2024-01-15 17:03:21,165 :INFO : Test_01_Login :**** Home page title test passed ****
+2024-01-15 17:03:22,687 :INFO : Test_01_Login :****Started Login Test****
+2024-01-15 17:03:26,945 :INFO : Test_01_Login :****Login test passed ****
+2024-01-15 17:03:28,480 :INFO : Test_02_DataDrivenTest_Login :*********Test_02_DataDrivenTest_Login*********
+2024-01-15 17:03:28,480 :INFO : Test_02_DataDrivenTest_Login :****Started DDT Login Test****
+2024-01-15 17:03:36,272 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 17:03:43,320 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 17:03:48,925 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 17:03:54,608 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 17:03:54,609 :INFO : Test_02_DataDrivenTest_Login :******* DDT Login test passed **********
+2024-01-15 17:03:54,694 :INFO : Test_02_DataDrivenTest_Login :******* Login test completed **********
+2024-01-15 17:03:56,203 :INFO : Test_04_SearchCustomerByEmail :************* Test 04 SearchCustomerByEmail **********
+2024-01-15 17:03:58,939 :INFO : Test_04_SearchCustomerByEmail :************* Login successful **********
+2024-01-15 17:03:58,939 :INFO : Test_04_SearchCustomerByEmail :******* Starting Search Customer By Email **********
+2024-01-15 17:04:00,439 :INFO : Test_04_SearchCustomerByEmail :************* searching customer by emailID **********
+2024-01-15 17:04:06,318 :INFO : Test_04_SearchCustomerByEmail :***************  TC_04_SearchCustomerByEmail Finished!!!!Hurray *********** 
+2024-01-15 17:04:07,712 :INFO : Test_05_SearchCustomerByName :************* test_05_SearchCustomerByName **********
+2024-01-15 17:04:10,452 :INFO : Test_05_SearchCustomerByName :************* Login successful **********
+2024-01-15 17:04:10,452 :INFO : Test_05_SearchCustomerByName :******* Starting Search Customer By Name **********
+2024-01-15 17:04:16,780 :INFO : Test_03_AddCustomer :************* Test_03_AddCustomer **********
+2024-01-15 17:04:19,394 :INFO : Test_03_AddCustomer :************* Login successful **********
+2024-01-15 17:04:19,394 :INFO : Test_03_AddCustomer :******* Starting new Testcase to add **********
+2024-01-15 17:04:27,359 :INFO : Test_03_AddCustomer :************* Providing customer details **********
+2024-01-15 17:04:38,181 :INFO : Test_03_AddCustomer :************* Saving customer info **********
+2024-01-15 17:04:38,181 :INFO : Test_03_AddCustomer :********* Add customer validation started *****************
+2024-01-15 17:04:38,914 :INFO : Test_03_AddCustomer :********* Customer added, Test Passed *********
+2024-01-15 17:04:38,984 :INFO : Test_03_AddCustomer :******* Ending,Thank you Universe **********
+2024-01-15 17:04:40,404 :INFO : Test_01_Login :*************** Test_001_Login *****************
+2024-01-15 17:04:40,405 :INFO : Test_01_Login :****Started Home page title test ****
+2024-01-15 17:04:40,405 :INFO : Test_01_Login :****Opening URL****
+2024-01-15 17:04:42,538 :INFO : Test_01_Login :**** Home page title test passed ****
+2024-01-15 17:04:44,081 :INFO : Test_01_Login :****Started Login Test****
+2024-01-15 17:04:47,150 :INFO : Test_01_Login :****Login test passed ****
+2024-01-15 17:04:48,720 :INFO : Test_02_DataDrivenTest_Login :*********Test_02_DataDrivenTest_Login*********
+2024-01-15 17:04:48,720 :INFO : Test_02_DataDrivenTest_Login :****Started DDT Login Test****
+2024-01-15 17:04:56,393 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 17:05:03,588 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 17:05:09,216 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 17:05:14,792 :INFO : Test_02_DataDrivenTest_Login :**** Test passed ****
+2024-01-15 17:05:14,792 :INFO : Test_02_DataDrivenTest_Login :******* DDT Login test passed **********
+2024-01-15 17:05:14,879 :INFO : Test_02_DataDrivenTest_Login :******* Login test completed **********
+2024-01-15 17:05:16,294 :INFO : Test_04_SearchCustomerByEmail :************* Test 04 SearchCustomerByEmail **********
+2024-01-15 17:05:18,931 :INFO : Test_04_SearchCustomerByEmail :************* Login successful **********
+2024-01-15 17:05:18,931 :INFO : Test_04_SearchCustomerByEmail :******* Starting Search Customer By Email **********
+2024-01-15 17:05:20,408 :INFO : Test_04_SearchCustomerByEmail :************* searching customer by emailID **********
+2024-01-15 17:05:26,270 :INFO : Test_04_SearchCustomerByEmail :***************  TC_04_SearchCustomerByEmail Finished!!!!Hurray *********** 
+2024-01-15 17:05:27,724 :INFO : Test_05_SearchCustomerByName :************* test_05_SearchCustomerByName **********
+2024-01-15 17:05:30,623 :INFO : Test_05_SearchCustomerByName :************* Login successful **********
+2024-01-15 17:05:30,623 :INFO : Test_05_SearchCustomerByName :******* Starting Search Customer By Name **********
+2024-01-15 17:05:51,946 :INFO : Test_05_SearchCustomerByName :************* searching customer by Name **********
+2024-01-15 17:05:57,359 :INFO : Test_05_SearchCustomerByName :***************  TC_05_SearchCustomerByName Finished!!!!!Hurray *********** 
