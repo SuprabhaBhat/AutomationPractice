@@ -34,7 +34,7 @@ class Test_03_AddCustomer:
         self.addcust = AddCustomer(self.driver)
         self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenu()
-        self.driver.implicitly_wait(5)
+        self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenuItem()
         self.driver.implicitly_wait(10)
         self.addcust.clickOnAddnew()

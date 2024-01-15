@@ -9,6 +9,7 @@ class LogGen:
         #Retrieves the name of the calling function. Index 1-frame of the calling function/index 3 within that frame to function name.
         loggerName= inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
+        #sending logs to file
         fileHandler = logging.FileHandler("D:\\ApplicationDemoProject\\AutomationApp\\Logs\\automation.log")
         formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")
         fileHandler.setFormatter(formatter)
