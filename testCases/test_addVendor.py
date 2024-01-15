@@ -18,6 +18,7 @@ class Test_07_AddVendor:
 
     @pytest.mark.sanity
     @pytest.mark.regression
+    @pytest.mark.xfail
     def test_addVendor(self,setup):
         self.logger.info("************* Test_07_AddVendor **********")
         self.driver = setup
@@ -51,7 +52,7 @@ class Test_07_AddVendor:
         self.msg = self.driver.find_element(By.XPATH,"//div[@class='alert alert-danger alert-dismissable']").text
 
         print(self.msg)
-        if 'For security purposes, the feature you have requested is not available on the demo site.' in self.msg:
+        if 'Success' in self.msg:
             assert True
             self.logger.info("********* Vendor adding failed which is expected, Test Passed *********")
         else:

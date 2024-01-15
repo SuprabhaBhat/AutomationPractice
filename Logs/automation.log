@@ -1241,3 +1241,10 @@
 2024-01-15 22:27:44,582 :INFO : Test_05_SearchCustomerByName :******* Starting Search Customer By Name **********
 2024-01-15 22:27:46,929 :INFO : Test_05_SearchCustomerByName :************* searching customer by Name **********
 2024-01-15 22:27:53,055 :INFO : Test_05_SearchCustomerByName :***************  TC_05_SearchCustomerByName Finished!!!!!Hurray *********** 
+2024-01-15 22:31:14,502 :INFO : Test_07_AddVendor :************* Test_07_AddVendor **********
+2024-01-15 22:31:20,462 :INFO : Test_07_AddVendor :************* Login successful **********
+2024-01-15 22:31:20,463 :INFO : Test_07_AddVendor :******* Starting new Testcase to add vendor **********
+2024-01-15 22:31:25,281 :INFO : Test_07_AddVendor :************* Providing customer vendor details **********
+2024-01-15 22:31:29,331 :INFO : Test_07_AddVendor :************* Saving vendor info **********
+2024-01-15 22:31:29,333 :INFO : Test_07_AddVendor :********* Add vendor validation started *****************
+2024-01-15 22:31:30,094 :ERROR : Test_07_AddVendor :********* Adding vendor failed, Test Failed ************
