@@ -32,14 +32,10 @@ class Test_03_AddCustomer:
 
         self.logger.info("******* Starting new Testcase to add **********")
         self.addcust = AddCustomer(self.driver)
-        self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenu()
-        self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenuItem()
-        self.driver.implicitly_wait(10)
         self.addcust.clickOnAddnew()
-        time.sleep(5)
-
+        self.driver.implicitly_wait(10)
 
         self.logger.info("************* Providing customer details **********")
 

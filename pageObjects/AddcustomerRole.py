@@ -1,11 +1,13 @@
 import time
 
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 
 class AddCustomerRoles:
 
-    lnkCustomers_menu_xpath = "//a[@href='#']//p[contains(text(),'Customers')]"
+    #lnkCustomers_menu_xpath = "//a[@href='#']//p[contains(text(),'Customers')]"
     lnkCustomers_role_xpath = "(//p[normalize-space()='Customer roles'])[1]"
     btnAddNewRole_xpath = "(//a[normalize-space()='Add new'])[1]"
 
@@ -20,13 +22,16 @@ class AddCustomerRoles:
         self.driver = driver
 
     def clickOnCustomersMenu(self):
-        self.driver.find_element(By.XPATH,self.lnkCustomers_menu_xpath).click()
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(EC.visibility_of_element_located((By.XPATH, "//a[@href='#']//p[contains(text(),'Customers')]"))).click()
 
     def clickOnCustomersRole(self):
-        self.driver.find_element(By.XPATH,self.lnkCustomers_role_xpath).click()
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(EC.visibility_of_element_located((By.XPATH,self.lnkCustomers_role_xpath))).click()
 
     def clickOnAddNewRole(self):
-        self.driver.find_element(By.XPATH,self.btnAddNewRole_xpath).click()
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(EC.visibility_of_element_located((By.XPATH,self.btnAddNewRole_xpath))).click()
 
     def setName(self,name):
         self.driver.find_element(By.XPATH,self.txtName_xpath).send_keys(name)

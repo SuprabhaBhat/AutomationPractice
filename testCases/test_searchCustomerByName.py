@@ -28,9 +28,7 @@ class Test_05_SearchCustomerByName:
         self.logger.info("******* Starting Search Customer By Name **********")
 
         self.addcust = AddCustomer(self.driver)
-        self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenu()
-        self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenuItem()
         self.driver.implicitly_wait(10)
 

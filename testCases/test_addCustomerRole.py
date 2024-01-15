@@ -32,13 +32,11 @@ class Test_06_AddCustomerRole:
 
         self.logger.info("******* Starting new Testcase to add **********")
         self.addrole = AddCustomerRoles(self.driver)
-        self.driver.implicitly_wait(10)
         self.addrole.clickOnCustomersMenu()
-        self.driver.implicitly_wait(10)
         self.addrole.clickOnCustomersRole()
         self.driver.implicitly_wait(10)
         self.addrole.clickOnAddNewRole()
-        time.sleep(5)
+        self.driver.implicitly_wait(10)
 
         self.logger.info("******** Providing customer role details *******")
 

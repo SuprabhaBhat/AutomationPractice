@@ -1,11 +1,16 @@
 import time
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import wait
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.wait import WebDriverWait
+
 
 class AddCustomer:
 
-    lnkCustomers_menu_xpath = "//a[@href='#']//p[contains(text(),'Customers')]"
+    #lnkCustomers_menu_xpath = "//a[@href='#']//p[contains(text(),'Customers')]"
     lnkCustomers_menuitem_xpath = "//a[@href='/Admin/Customer/List']//p[contains(text(),'Customers')]"
     btnAddnew_xpath = "//a[@class='btn btn-primary']"
 
@@ -30,13 +35,16 @@ class AddCustomer:
         self.driver = driver
 
     def clickOnCustomersMenu(self):
-        self.driver.find_element(By.XPATH,self.lnkCustomers_menu_xpath).click()
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(EC.visibility_of_element_located((By.XPATH,"//a[@href='#']//p[contains(text(),'Customers')]"))).click()
 
     def clickOnCustomersMenuItem(self):
-        self.driver.find_element(By.XPATH,self.lnkCustomers_menuitem_xpath).click()
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(EC.visibility_of_element_located((By.XPATH,self.lnkCustomers_menuitem_xpath))).click()
 
     def clickOnAddnew(self):
-        self.driver.find_element(By.XPATH,self.btnAddnew_xpath).click()
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(EC.visibility_of_element_located((By.XPATH,self.btnAddnew_xpath))).click()
 
     def setEmail(self,email):
         self.driver.find_element(By.XPATH,self.txtEmail_xpath).send_keys(email)
