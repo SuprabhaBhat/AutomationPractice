@@ -29,6 +29,7 @@ class Test_05_SearchCustomerByName:
 
         self.addcust = AddCustomer(self.driver)
         self.addcust.clickOnCustomersMenu()
+        self.driver.implicitly_wait(10)
         self.addcust.clickOnCustomersMenuItem()
         self.driver.implicitly_wait(10)
 

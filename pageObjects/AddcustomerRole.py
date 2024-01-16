@@ -22,15 +22,15 @@ class AddCustomerRoles:
         self.driver = driver
 
     def clickOnCustomersMenu(self):
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 15)
         wait.until(EC.visibility_of_element_located((By.XPATH, "//a[@href='#']//p[contains(text(),'Customers')]"))).click()
 
     def clickOnCustomersRole(self):
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 15)
         wait.until(EC.visibility_of_element_located((By.XPATH,self.lnkCustomers_role_xpath))).click()
 
     def clickOnAddNewRole(self):
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 15)
         wait.until(EC.visibility_of_element_located((By.XPATH,self.btnAddNewRole_xpath))).click()
 
     def setName(self,name):

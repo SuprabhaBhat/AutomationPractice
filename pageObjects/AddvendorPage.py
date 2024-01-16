@@ -19,15 +19,15 @@ class AddVendor:
         self.driver = driver
 
     def clickOnCustomersMenu(self):
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 15)
         wait.until(EC.visibility_of_element_located((By.XPATH, "//a[@href='#']//p[contains(text(),'Customers')]"))).click()
 
     def clickOnVendors(self):
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 15)
         wait.until(EC.visibility_of_element_located((By.XPATH,self.lnkVendor_xpath))).click()
 
     def clickOnAddNewVendor(self):
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 15)
         wait.until(EC.visibility_of_element_located((By.XPATH,self.btnAddNewVendor_xpath))).click()
 
     def setName(self, name):
